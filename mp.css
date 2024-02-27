@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+header {
+    background: burlywood;
+    padding: 50px;
+    text-align: center;
+}
+header h1 {
+    font-family: cursive;
+    font-size: 25px;
+}
+.introduction {
+    padding: 25px;
+    line-height: 2;
+    margin: 15px;
+    /* background: rgb(230, 169, 115); */
+    border-radius: 10px;
+}
+.skills {
+    padding: 20px 70px;
+    line-height: 3;
+    background: burlywood;
+}
+.contact {
+    text-align: center;
+    padding: 15px;
+}
+.contact h1 {
+    font-size: 30px;
+}
+.contact p {
+    font-size: 20px;
+    padding: 10px;
+}
+.contact img {
+    padding: 10px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 500px) and (max-width: 1000px){
+    header {
+        padding: 50px;
+    }
+    .introduction h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+}
